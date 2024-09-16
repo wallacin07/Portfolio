@@ -38,17 +38,20 @@ function App() {
 
   <div className={style.boxAbout}>
       <div className={style.textAbout}>
-          <h1>Hello, i&apos;m <span>Wallace!</span></h1>
+          <h1>Hello, i&apos;m <span className={style.neonText}>Wallace!</span></h1>
           
           <h2>I&apos;m a developer.</h2>
           
-          
+          <div className={style.neon}>
           <h3>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+          Minha area principal é no desenvolvimento back-end, mas também com atuação no front-end, o que me proporciona uma visão mais ampla do ciclo de desenvolvimento de aplicações. 
+          Ao longo desse tempo, trabalhei em projetos que envolvem a construção de APIs, manipulação de bancos de dados, e implementação de lógica.
+          <br/><br/>
+          Estou constantemente em busca de aprimorar meus conhecimentos e aplicar soluções criativas nos projetos em que estou envolvida, com o objetivo de me tornar uma desenvolvedor full stack mais completo.
           </h3>
+
+          </div>
       </div>
       <div className={style.hero_graphic}>
           <div className={style.computer_graphic}><img src="../src/assets/imagem.svg" alt="" /></div></div>

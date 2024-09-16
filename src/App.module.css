@@ -203,8 +203,8 @@ a
 
 .textAbout
 {   margin: 195px 0px 0px 0px;
-    width: 30%;
-    font-family: 'Source Sans Pro', sans-serif;
+    width: 35%;
+    font-family: "Signika Negative", sans-serif;
     color:var(--white);
     display: flex;
     flex-direction: column;
@@ -229,7 +229,7 @@ a
 .textAbout h3
 {
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #eu
@@ -263,14 +263,14 @@ a
 
 .textTech h1
 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "REM", sans-serif;
     margin-top: 15px;
     font-size: 60px;
 }
 
 .textTech h3
 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     margin-top: 5px;
     font-size: 20px;
@@ -342,4 +342,26 @@ span
 {
     content: '';
     color: var(--purple);
+}
+
+.neon {
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background: rgba(128, 0, 128, 0.1); /* Fundo translúcido */
+    box-shadow: 0 0 15px #9400D3, 0 0 40px #9400D3, 0 0 50px #9400D3; /* Efeito neon */
+}
+
+.neonText {
+    color: #fff;
+    font-size: 48px;
+    text-shadow: 
+        0 0 10px #9400D3, /* Sombra neon próxima */
+        0 0 20px #9400D3, /* Sombra neon intermediária */
+        0 0 30px #9400D3, /* Sombra neon mais distante */
+        0 0 40px #9400D3, /* Efeito mais intenso */
+        0 0 50px #9400D3;
 }
