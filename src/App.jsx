@@ -2,7 +2,19 @@
 import style from './App.module.css'
 
 function App() {
+
+  const enviar = () => 
+  {
+    let mensagem = "Ola queria saber mais sobre seu trabalho";
+     var numeroTelefone = "5541988778886";
+ 
+     var link = "https://wa.me/" + numeroTelefone + `?text=${encodeURIComponent(mensagem)}`;
+     window.open(link, "_blank")
+  }
   return (
+
+
+    
     <>
       <header>
         <div className={style.Start}>
@@ -25,7 +37,7 @@ function App() {
                 </div>
 
                 <div className={style.guides} >  
-                        <a href="#contact"><h3 id={style.contact}>Contact me</h3></a>
+                        <a href="#contact" onClick={() => enviar()}><h3 id={style.contact}>Contact me</h3></a>
                 </div>
 
             </div>
