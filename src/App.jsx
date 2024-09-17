@@ -1,5 +1,21 @@
 
-import style from './App.module.css'
+import style from '../src/App.module.css'
+import imagem from '../src/assets/imagem.svg'
+import mundo from '../src/assets/no-mundo-todo.png'
+import github from '../src/assets/icons8-github-250.svg'
+import controle from '../src/assets/controle-de-jogo.png'
+import dados from '../src/assets/coleta-de-dados.png'
+import java from '../src/assets/java-svgrepo-com.svg'
+import Csharp from '../src/assets/Csharp.svg'
+import C from '../src/assets/c.svg'
+import Javascript from '../src/assets/logo-javascript.svg'
+import sql from '../src/assets/microsoft-sql-server-logo.svg'
+import python from '../src/assets/python.svg'
+import csi from '../src/assets/CSI.png'
+import Bosch from '../src/assets/Bosch-Logo-W (1).webp'
+import html from '../src/assets/icons8-html-480.svg'
+import Linkedin from '../src/assets/icons8-linkedin-240.svg'
+import css from '../src/assets/w3_css-icon.svg'
 
 function App() {
 
@@ -66,7 +82,7 @@ function App() {
           </div>
       </div>
       <div className={style.hero_graphic}>
-          <div className={style.computer_graphic}><img src="../src/assets/imagem.svg" alt="" /></div></div>
+          <div className={style.computer_graphic}><img src={imagem} alt="" /></div></div>
 
   </div>
 
@@ -80,26 +96,26 @@ function App() {
 
     <div className={style.projects}>
         <div className={style.cards}>
-            <img src="../src/assets/no-mundo-todo.png" alt="" className={style.cardsImg}/>
+            <img src={mundo} alt="" className={style.cardsImg}/>
             <h2 className={style.cardsText2}>Rede Social</h2>
             <h3  className={style.cardsText}>Este projeto foi desenvolvido com mais dois parceiros de trabalho, para um projeto final. <br /><br />
                 ele foi feito em express, javascript, ejs e css.
             </h3 >
-            <a id="link" target='blank' href="https://github.com/wallacin07"><img  id={style.imageFooter} src="../src/assets/icons8-github-250.svg" alt=""/></a>
+            <a id="link" target='blank' href="https://github.com/wallacin07"><img  id={style.imageFooter} src={github} alt=""/></a>
         </div>
 
         <div className={style.cards}>
-            <img src="../src/assets/controle-de-jogo.png" alt="" className={style.cardsImg}/>
+            <img src={controle} alt="" className={style.cardsImg}/>
             <h2 className={style.cardsText2}>Explode Man</h2>
             <h3 className={style.cardsText}>Um jogo feito em c, inspirado no Bomberman<br /><br /> foi desenvolvido por mim e meus colegas, para o projeto final</h3>
-            <a id="link" target='blank' href="https://github.com/wallacin07"><img  id={style.imageFooter} src="../src/assets/icons8-github-250.svg" alt=""/></a>
+            <a id="link" target='blank' href="https://github.com/wallacin07"><img  id={style.imageFooter} src={github} alt=""/></a>
         </div>
 
         <div className={style.cards}>
-            <img src="../src/assets/coleta-de-dados.png" alt="" className={style.cardsImg}/>
+            <img src={dados} alt="" className={style.cardsImg}/>
             <h2 className={style.cardsText2}>Struct Data</h2>
             <h3 className={style.cardsText}>Esse projeto foi feito como proposta final de java, onde fazemos todas as estruturas de dados<br /><br />Nele tem pilha, fila e hash</h3>
-            <a id="link" target='blank' href="https://github.com/wallacin07"><img  id={style.imageFooter} src="../src/assets/icons8-github-250.svg" alt=""/></a>
+            <a id="link" target='blank' href="https://github.com/wallacin07"><img  id={style.imageFooter} src={github} alt=""/></a>
         </div>
     </div>
 
@@ -113,37 +129,37 @@ function App() {
   
     <div className={style.images}>    
         <div className={style.boxImage}>
-            <img id={style.imageTech} src="../src/assets/java-svgrepo-com.svg" alt=""/>
+            <img id={style.imageTech} src={java} alt=""/>
         </div>
 
         <div className={style.boxImage}>
-            <img id={style.imageTech} src="../src/assets/Csharp.svg" alt=""/>
+            <img id={style.imageTech} src={Csharp} alt=""/>
         </div>
 
         <div className={style.boxImage}>
-            <img id={style.imageTech} src="../src/assets/c.svg" alt=""/>
+            <img id={style.imageTech} src={C} alt=""/>
         </div>
 
         <div className={style.boxImage}>
-            <img id={style.imageTech} src="../src/assets/python.svg" alt=""/>
-        </div>
-
-
-        <div className={style.boxImage}>
-            <img id={style.imageTech} src="../src/assets/icons8-html-480.svg" alt=""/>
-        </div>
-
-        <div className={style.boxImage}>
-            <img id={style.imageTech} src="../src/assets/w3_css-icon.svg" alt=""/>
-        </div>
-
-        <div className={style.boxImage}>
-            <img id={style.imageTech} src="../src/assets/logo-javascript.svg" alt=""/>
+            <img id={style.imageTech} src={python} alt=""/>
         </div>
 
 
         <div className={style.boxImage}>
-            <img id={style.imageTech} src="../src/assets/microsoft-sql-server-logo.svg" alt=""/>
+            <img id={style.imageTech} src={html} alt=""/>
+        </div>
+
+        <div className={style.boxImage}>
+            <img id={style.imageTech} src={css} alt=""/>
+        </div>
+
+        <div className={style.boxImage}>
+            <img id={style.imageTech} src={Javascript} alt=""/>
+        </div>
+
+
+        <div className={style.boxImage}>
+            <img id={style.imageTech} src={sql} alt=""/>
         </div>
         
         <div className={style.boxImage}>
@@ -165,7 +181,7 @@ function App() {
 
                 <div className={style.projects2}>
                         <div className={style.cards}>
-                            <img src="../src/assets/CSI.png" alt="" className={style.cardsImg3}/>
+                            <img src={csi} alt="" className={style.cardsImg3}/>
                             <h2 className={style.cardsText2}>Suporte N1</h2>
                             <h3  className={style.cardsText}>Trabalhei por 1 ano como Suporte mexendo com servidores,Grafana, Gerenciamento de Usuários e rede
                             </h3 >
@@ -173,7 +189,7 @@ function App() {
                         </div>
 
                         <div className={style.cards}>
-                            <img src="../src/assets/Bosch-Logo-W (1).webp" alt="" className={style.cardsImg2}/>
+                            <img src={Bosch} alt="" className={style.cardsImg2}/>
                             <h2 className={style.cardsText2}>Aprendiz</h2>
                             <h3 className={style.cardsText}>Atualmente estou na Bosch Brasil, Atuando como aprendiz, e me desenvolvendo para virar um Desenvolvedor</h3>
                         </div>
@@ -197,8 +213,8 @@ function App() {
 
 
 <footer>
-<a id="link" target='blank' href="https://github.com/wallacin07"><img  id={style.imageFooter} src="../src/assets/icons8-github-250.svg" alt=""/></a>
-<a  id="link" target='blank' href="https://www.linkedin.com/in/wallace-abreu-da-silva-948304244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img  id={style.imageFooter} src="../src/assets/icons8-linkedin-240.svg" alt=""/></a>
+<a id="link" target='blank' href="https://github.com/wallacin07"><img  id={style.imageFooter} src={github} alt=""/></a>
+<a  id="link" target='blank' href="https://www.linkedin.com/in/wallace-abreu-da-silva-948304244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img  id={style.imageFooter} src={Linkedin} alt=""/></a>
 </footer>
     </>
   )
