@@ -70,18 +70,44 @@ function App() {
 
   </div>
 
+
+
+
 </section>
 <section id='experience'>
   <div className={style.Technologies}>
+  <h1 className={style.cardsText5}>My Projects </h1>
+
+    <div className={style.projects}>
+        <div className={style.cards}>
+            <img src="../src/assets/no-mundo-todo.png" alt="" className={style.cardsImg}/>
+            <h2 className={style.cardsText2}>Rede Social</h2>
+            <h3  className={style.cardsText}>Este projeto foi desenvolvido com mais dois parceiros de trabalho, para um projeto final. <br /><br />
+                ele foi feito em express, javascript, ejs e css.
+            </h3 >
+            <a id="link" target='blank' href="https://github.com/wallacin07"><img  id={style.imageFooter} src="../src/assets/icons8-github-250.svg" alt=""/></a>
+        </div>
+
+        <div className={style.cards}>
+            <img src="../src/assets/controle-de-jogo.png" alt="" className={style.cardsImg}/>
+            <h2 className={style.cardsText2}>Explode Man</h2>
+            <h3 className={style.cardsText}>Um jogo feito em c, inspirado no Bomberman<br /><br /> foi desenvolvido por mim e meus colegas, para o projeto final</h3>
+            <a id="link" target='blank' href="https://github.com/wallacin07"><img  id={style.imageFooter} src="../src/assets/icons8-github-250.svg" alt=""/></a>
+        </div>
+
+        <div className={style.cards}>
+            <img src="../src/assets/coleta-de-dados.png" alt="" className={style.cardsImg}/>
+            <h2 className={style.cardsText2}>Struct Data</h2>
+            <h3 className={style.cardsText}>Esse projeto foi feito como proposta final de java, onde fazemos todas as estruturas de dados<br /><br />Nele tem pilha, fila e hash</h3>
+            <a id="link" target='blank' href="https://github.com/wallacin07"><img  id={style.imageFooter} src="../src/assets/icons8-github-250.svg" alt=""/></a>
+        </div>
+    </div>
+
+
 
       <div className={style.textTech}>
           <h1>
               Languages that i learned!
-              <h3>
-                  My main area of expertise is the back end (server side of the web)
-                  <br/><br/>
-                  Java, C# and C are my main languages, used in projects that integrate with databases, and because they are more performant in Server Side solutions, but I have experience in other languages, such as Python, Javascript and HTML and CSS
-              </h3>
           </h1>
       </div>
   
@@ -130,6 +156,39 @@ function App() {
 
 </div>
 </section>
+
+
+
+    <section id='myStory'>
+        <div className={style.career}>
+        <h1 className={style.cardsText4}>My Career && My Professional Experience</h1>
+
+                <div className={style.projects2}>
+                        <div className={style.cards}>
+                            <img src="../src/assets/CSI.png" alt="" className={style.cardsImg3}/>
+                            <h2 className={style.cardsText2}>Suporte N1</h2>
+                            <h3  className={style.cardsText}>Trabalhei por 1 ano como Suporte mexendo com servidores,Grafana, Gerenciamento de Usuários e rede
+                            </h3 >
+                            
+                        </div>
+
+                        <div className={style.cards}>
+                            <img src="../src/assets/Bosch-Logo-W (1).webp" alt="" className={style.cardsImg2}/>
+                            <h2 className={style.cardsText2}>Aprendiz</h2>
+                            <h3 className={style.cardsText}>Atualmente estou na Bosch Brasil, Atuando como aprendiz, e me desenvolvendo para virar um Desenvolvedor</h3>
+                        </div>
+                    </div>
+
+            </div>
+            </section>
+
+
+
+
+
+
+
+
 
 
 </div>
