@@ -101,21 +101,21 @@ function App() {
             <h3  className={style.cardsText}>Este projeto foi desenvolvido com mais dois parceiros de trabalho, para um projeto final. <br /><br />
                 ele foi feito em express, javascript, ejs e css.
             </h3 >
-            <a id="link" target='blank' href="https://github.com/wallacin07"><img  id={style.imageFooter} src={github} alt=""/></a>
+            <a id="link" target='blank' href="https://github.com/wallacin07/SocialMedia_WebProject"><img  id={style.imageFooter} src={github} alt=""/></a>
         </div>
 
         <div className={style.cards}>
             <img src={controle} alt="" className={style.cardsImg}/>
             <h2 className={style.cardsText2}>Explode Man</h2>
             <h3 className={style.cardsText}>Um jogo feito em c, inspirado no Bomberman<br /><br /> foi desenvolvido por mim e meus colegas, para o projeto final</h3>
-            <a id="link" target='blank' href="https://github.com/wallacin07"><img  id={style.imageFooter} src={github} alt=""/></a>
+            <a id="link" target='blank' href="https://github.com/wallacin07/ProjetosPessoais/tree/main/Grafico"><img  id={style.imageFooter} src={github} alt=""/></a>
         </div>
 
         <div className={style.cards}>
             <img src={dados} alt="" className={style.cardsImg}/>
             <h2 className={style.cardsText2}>Struct Data</h2>
             <h3 className={style.cardsText}>Esse projeto foi feito como proposta final de java, onde fazemos todas as estruturas de dados<br /><br />Nele tem pilha, fila e hash</h3>
-            <a id="link" target='blank' href="https://github.com/wallacin07"><img  id={style.imageFooter} src={github} alt=""/></a>
+            <a id="link" target='blank' href="https://github.com/wallacin07/Bosch/tree/main/5%20-%20Java/Aula%205"><img  id={style.imageFooter} src={github} alt=""/></a>
         </div>
     </div>
 
