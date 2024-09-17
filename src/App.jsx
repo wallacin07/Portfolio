@@ -57,7 +57,7 @@ function App() {
           <div className={style.neon}>
           <h3>
 
-          Minha area principal é no desenvolvimento back-end, mas também com atuação no front-end, o que me proporciona uma visão mais ampla do ciclo de desenvolvimento de aplicações. 
+          Minha area principal é no desenvolvimento back-end, mas também com atuação no front-end, o que me proporciona uma melhor visão do ciclo de desenvolvimento de aplicações. 
           Ao longo desse tempo, trabalhei em projetos que envolvem a construção de APIs, manipulação de bancos de dados, e implementação de lógica.
           <br/><br/>
           Estou constantemente em busca de aprimorar meus conhecimentos e aplicar soluções criativas nos projetos em que estou envolvida, com o objetivo de me tornar uma desenvolvedor full stack mais completo.

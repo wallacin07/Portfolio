@@ -17,7 +17,7 @@ header
 }
 .navBar
 {
-    font-family: "Rubik", sans-serif;
+    font-family:var(--fontREM);
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -205,7 +205,7 @@ a
 .textAbout
 {   margin: 130px 0px 0px 0px;
     width: 35%;
-    font-family: "Signika Negative", sans-serif;
+    font-family:var(--fontRoboto);
     color:var(--white);
     display: flex;
     flex-direction: column;
@@ -264,7 +264,7 @@ a
 
 .textTech h1
 {
-    font-family: "REM", sans-serif;
+    font-family:var(--fontREM);
     font-size: 40px;
 }
 
@@ -337,15 +337,15 @@ span
     margin-top: 15px;
     padding: 20px;
     border-radius: 10px;
-    color: #fff;
+    color: var(--white);
     font-size: 20px;
     text-align: center;
     background: rgba(128, 0, 128, 0.1); /* Fundo translúcido */
-    box-shadow: 0 0 15px #9400D3, 0 0 40px #9400D3, 0 0 50px #9400D3; /* Efeito neon */
+    box-shadow: var(--Neon);
 }
 
 .neonText {
-    color: #fff;
+    color: var(--white);
     font-size: 48px;
     text-shadow: 
         0 0 10px #9400D3, /* Sombra neon próxima */
@@ -365,7 +365,7 @@ span
 
 .cards{
     display: flex;
-    color: #fff;
+    color: var(--white);
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -373,7 +373,7 @@ span
     height: 350px;
     width: 390px;
     border-radius: 10px;
-    box-shadow: 0 0 15px #9400D3, 0 0 40px #9400D3, 0 0 50px #9400D3; /* Efeito neon */
+    box-shadow: var(--Neon);
 }
 
 
@@ -400,7 +400,7 @@ span
 
 .cardsText
 {
-    font-family: "Roboto", sans-serif;
+    font-family:var(--fontRoboto);
     margin: 3px;
     text-align: center;
 }
@@ -417,7 +417,7 @@ span
 
 .career
 {
-    color: #fff;
+    color: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -428,7 +428,7 @@ span
 
 .cardsText2
 {
-    font-family: "Roboto", sans-serif;
+    font-family:var(--fontRoboto);
     margin: 3px;
     text-align: center;
 }
@@ -436,7 +436,7 @@ span
 .cardsText4
 {
     font-size: 50px;
-    font-family: "Roboto", sans-serif;
+    font-family:var(--fontRoboto);
     margin-bottom: 40px;
     text-align: center;
 }
@@ -444,7 +444,7 @@ span
 .cardsText5
 {
     font-size: 50px;
-    font-family: "Roboto", sans-serif;
+    font-family:var(--fontRoboto);
     text-align: center;
 }
 
