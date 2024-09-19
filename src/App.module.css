@@ -167,6 +167,7 @@ a
     height: 134vw;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 
